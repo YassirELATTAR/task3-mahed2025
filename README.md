@@ -1,7 +1,7 @@
 # Multimodal Hate Speech Detection for Arabic Memes
 ## Abstract
 We present our system for the MAHED 2025 Shared Task on Arabic Hate Meme Detection (subtask 3), a binary classification task to determine whether a multimodal meme containing Arabic text and an image conveys a hateful message. Our approach uses multimodal fusion combining a visual encoder and an Arabic text encoder. We explored four fusion strategies—transformer fusion, early fusion, cross-attention, and bilinear fusion—and found transformer fusion offered the best single-model trade-off, while an ensemble of all four achieved the highest score. To address the severe class imbalance (90.05% not-hate vs. 9.95% hate), we applied class-weighted loss, focal loss, strong regularization, and light augmentation. Our best submission reached a macro-F1 score of **0.75** on the test set.
-- **Paper:** [Link to be provided after review]
+- **Paper:** [Link to be provided after review] (#)
 - **Shared Task:** [Link to shared task](https://marsadlab.github.io/mahed2025/)
 ## Repository Structure
 ```bash
@@ -18,8 +18,8 @@ We present our system for the MAHED 2025 Shared Task on Arabic Hate Meme Detecti
 ## Installation
 #### 1. Clone the repository:
 ```bash
-git clone [repository-url]
-cd multimodal-hate-speech-detection
+git clone git@github.com:YassirELATTAR/task3-mahed2025.git
+cd task3-mahed2025
 ```
 #### 2. Install dependencies:
 ```bash
