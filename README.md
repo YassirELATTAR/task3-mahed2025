@@ -48,10 +48,11 @@ Run single fusion method:
 cd scripts
 ./run_experiments.sh
 ```
+> _NOTE: You can edit the bash script ```run_experiments``` before running it to add different configurations_
 
 - Or run with custom configuration:
 ```bash
-bashpython main.py \
+python main.py \
     --data_dir "../data/Prop2Hate-Meme" \
     --fusion "transformer" \
     --result_dir "./results" \
@@ -60,7 +61,7 @@ bashpython main.py \
 ```
 - Run ensemble experiments:
 ```bash
-bashpython main.py \
+python main.py \
     --data_dir "../data/Prop2Hate-Meme" \
     --ensemble True \
     --result_dir "./results" \
