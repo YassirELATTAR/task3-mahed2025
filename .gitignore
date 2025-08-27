@@ -4,15 +4,23 @@ __pycache__/
 *.pkl
 *.log
 *.ipynb_checkpoints/
+# Model files (not directories)
+*.pth
+*.pkl
+*.model
 
-# Ignore whole directories...
-outputs/**
-models/**
-data/**
+# Large data files
+*.zip
+*.tar.gz
 
-# ...but keep a placeholder (and README/samples if you want)
-!outputs/.gitkeep
-!models/.gitkeep
-!data/.gitkeep
-!data/README.md
-!data/samples/**
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
