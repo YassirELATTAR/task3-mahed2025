@@ -17,7 +17,7 @@ This folder contains data processing, augmentation, and analysis utilities.
   Arabic text normalization and preprocessing utilities  
 
 - `samples/`  
-  Sample data files for testing and development  
+  Samples to check the predictions to the true labels (human check)
 
 ---
 
