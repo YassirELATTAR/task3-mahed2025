@@ -1,8 +1,18 @@
+# Python
 *.pyc
 __pycache__/
 *.pkl
 *.log
 *.ipynb_checkpoints/
-outputs/
-models/
-data/
+
+# Ignore whole directories...
+outputs/**
+models/**
+data/**
+
+# ...but keep a placeholder (and README/samples if you want)
+!outputs/.gitkeep
+!models/.gitkeep
+!data/.gitkeep
+!data/README.md
+!data/samples/**
