@@ -48,7 +48,7 @@ Run single fusion method:
 cd scripts
 ./run_experiments.sh
 ```
-> _NOTE: You can edit the bash script ```run_experiments``` before running it to add different configurations_
+> _NOTE: You can edit the Bash script ```run_experiments``` before running it to add different configurations_
 
 - Or run with custom configuration:
 ```bash
